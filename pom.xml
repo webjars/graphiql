@@ -11,14 +11,14 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>graphiql</artifactId>
-    <version>0.2.4-SNAPSHOT</version>
+    <version>0.3.1-SNAPSHOT</version>
     <name>graphiql</name>
     <description>WebJar for graphiql</description>
     <url>http://webjars.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <upstream.version>0.2.3</upstream.version>
+        <upstream.version>0.3.1</upstream.version>
         <upstream.url>https://github.com/graphql/graphiql/archive/v${upstream.version}.zip</upstream.url>
         <destDir>${project.build.outputDirectory}/META-INF/resources/webjars/${project.artifactId}/${project.version}</destDir>
         <requirejs>
