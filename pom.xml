@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>graphiql</artifactId>
-    <version>0.3.1</version>
+    <version>0.3.2-SNAPSHOT</version>
     <name>graphiql</name>
     <description>WebJar for graphiql</description>
     <url>http://webjars.org</url>
@@ -50,7 +50,7 @@
         <url>http://github.com/webjars/graphiql</url>
         <connection>scm:git:https://github.com/webjars/graphiql.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/graphiql.git</developerConnection>
-        <tag>graphiql-0.3.1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
