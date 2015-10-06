@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>graphiql</artifactId>
-    <version>0.3.1-1-SNAPSHOT</version>
+    <version>0.3.1-1</version>
     <name>graphiql</name>
     <description>WebJar for graphiql</description>
     <url>http://webjars.org</url>
@@ -50,7 +50,7 @@
         <url>http://github.com/webjars/graphiql</url>
         <connection>scm:git:https://github.com/webjars/graphiql.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/graphiql.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>graphiql-0.3.1-1</tag>
     </scm>
 
     <build>
@@ -65,7 +65,7 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <mkdir dir="${destDir}"/>
+                                <mkdir dir="${destDir}" />
                                 <echo message="download archive" />
                                 <get src="${upstream.url}/graphiql.css" dest="${destDir}" />
                                 <get src="${upstream.url}/graphiql.js" dest="${destDir}" />
